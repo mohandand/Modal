@@ -20,4 +20,33 @@ body {
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 10px;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+.closeIcon {
+  display: flex;
+  justify-content: flex-end;
+}
+.modalContainer .contaierBody {
+  flex: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.modalContainer .footerButtons {
+  flex: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  border: none;
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 10px;
 }

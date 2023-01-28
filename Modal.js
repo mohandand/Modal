@@ -10,8 +10,8 @@ const Modal = () => {
         </div>
         <div className="contaierBody">This is a Modal</div>
         <div className="footerButtons">
-          <button>Close</button>
-          <button>Continue</button>
+          <button className="closeButton">Close</button>
+          <button className="continueButton">Continue</button>
         </div>
       </div>
     </div>
